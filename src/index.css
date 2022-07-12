@@ -1,0 +1,41 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a{
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+body{
+  background: black;
+  color: white;
+  font-family: 'Lato';
+}
+.main-button{
+  padding: 10px;
+  margin-bottom: 20px;
+  background: #f7d354;
+  border-radius: 5px solid transparent;
+cursor: pointer;
+  animation: btn 0.5s forwards;
+  
+}
+.main-button:hover{
+
+  background: white;
+  border-radius: 5px solid transparent;
+
+}
+@keyframes btn{
+  from{
+opacity: 0;
+transform: translate3d(0px, -60px, 0px);
+  }
+  to{
+    opacity: 1;
+    transform: translate3d(560px, 0px, 0px);
+  }
+}

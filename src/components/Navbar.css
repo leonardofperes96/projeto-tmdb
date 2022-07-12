@@ -1,0 +1,27 @@
+#nav-menu{
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 2rem;
+  align-items: center;
+}
+.title{
+  font-size: 2.5rem;
+  color: #f7d354;
+}
+#nav-menu form input{
+  padding: 0.5rem;
+  
+}
+#nav-menu form button{
+  padding: 0.5rem;
+  background: #f7d354;
+  color: white;
+  cursor: pointer;
+
+}
+#nav-menu button:hover{
+ background: black;
+transition: .5s
+}
+
